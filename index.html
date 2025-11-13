@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Últimos repos actualizados en GitHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Últimos repos actualizados</h1>
+    <p>Datos cacheados desde la API de GitHub cada 5 minutos mediante GitHub Actions.</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label>
+        Buscar:
+        <input type="text" id="search-input" placeholder="Filtrar por nombre o descripción...">
+      </label>
+
+      <label style="margin-left:1rem;">
+        Estrellas mínimas:
+        <input type="number" id="min-stars-input" value="10" min="0" style="width:80px;">
+      </label>
+    </section>
+
+    <section id="meta" class="meta">
+      <span id="last-updated">Cargando fecha de actualización...</span>
+      <span id="total-count"></span>
+    </section>
+
+    <section id="projects-container">
+      <ul id="projects-list" class="projects-list"></ul>
+    </section>
+
+    <section class="pagination">
+      <button id="prev-page">Anterior</button>
+      <span id="page-info"></span>
+      <button id="next-page">Siguiente</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Generado automáticamente desde GitHub Actions ·
+    <a href="https://github.com/tu-usuario-github" target="_blank" rel="noopener noreferrer">
+      Ver mi perfil
+    </a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

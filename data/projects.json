@@ -1,0 +1,10 @@
+{
+  "source": {
+    "type": "github_user_repos",
+    "user": "",
+    "min_stars": 10
+  },
+  "last_updated": null,
+  "count": 0,
+  "projects": []
+}
