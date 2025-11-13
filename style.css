@@ -17,6 +17,17 @@ body {
   border-top:1px solid #1f2937;
 }
 
+.footer-content {
+  display:flex;
+  flex-direction:column;
+  gap:0.75rem;
+  align-items:center;
+}
+
+.footer-info {
+  text-align:center;
+}
+
 .footer a {
   color:#3b82f6;
   text-decoration:none;
@@ -24,6 +35,41 @@ body {
 
 .footer a:hover {
   text-decoration:underline;
+}
+
+.visit-counter {
+  display:flex;
+  align-items:center;
+  gap:0.5rem;
+  padding:0.5rem 1rem;
+  background:#0f172a;
+  border:1px solid #1f2937;
+  border-radius:6px;
+}
+
+.counter-label {
+  font-size:0.9rem;
+  color:#94a3b8;
+  font-weight:500;
+}
+
+.counter-badge {
+  height:20px;
+  vertical-align:middle;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction:row;
+    justify-content:space-between;
+    max-width:900px;
+    margin:0 auto;
+    width:100%;
+  }
+
+  .footer-info {
+    text-align:left;
+  }
 }
 
 .container {

@@ -48,10 +48,26 @@
   </main>
 
   <footer class="footer">
-    Generado automáticamente desde GitHub Actions ·
-    <a href="https://github.com/alcastelo/github-tail" target="_blank" rel="noopener noreferrer">
-      Ver repositorio
-    </a>
+    <div class="footer-content">
+      <div class="footer-info">
+        Generado automáticamente desde GitHub Actions ·
+        <a href="https://github.com/alcastelo/github-tail" target="_blank" rel="noopener noreferrer">
+          Ver repositorio
+        </a>
+      </div>
+
+      <div class="visit-counter">
+        <span class="counter-label">Visitas:</span>
+        <!-- Opción 1: GoatCounter (Respeta privacidad, open source, gratuito) -->
+        <img src="https://alcastelo-github-tail.goatcounter.com/counter/default.svg" alt="Contador de visitas" class="counter-badge" style="display:none;">
+
+        <!-- Opción 2: Shields.io + GitHub (Basado en traffic de GitHub Pages) -->
+        <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/alcastelo/github-tail/traffic/views&label=views&query=$.count&color=blue&style=flat-square" alt="Visitas" class="counter-badge" style="display:none;">
+
+        <!-- Opción 3: Simple contador con API de hits.seeyoufarm.com -->
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Falcastelo.github.io%2Fgithub-tail&count_bg=%233B82F6&title_bg=%23020617&icon=github.svg&icon_color=%23E7E7E7&title=visitas&edge_flat=false" alt="Contador de visitas" class="counter-badge">
+      </div>
+    </div>
   </footer>
 
   <script src="app.js"></script>
