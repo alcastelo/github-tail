@@ -38,7 +38,7 @@ def format_datetime_for_search(dt_str):
 
 def main():
     max_results = int(os.environ.get("MAX_RESULTS", "50"))
-    min_stars = int(os.environ.get("MIN_STARS", "10"))
+    min_stars = int(os.environ.get("MIN_STARS", "20"))
     max_total_stored = int(os.environ.get("MAX_TOTAL_STORED", "200"))  # Límite de repos en histórico
     out_path = os.environ.get("OUT_PATH", "data/projects.json")
 

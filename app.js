@@ -1,7 +1,7 @@
 let projects = [];
 let filteredProjects = [];
 let currentPage = 1;
-const pageSize = 10;
+const pageSize = 25;
 
 async function loadProjects() {
   try {
