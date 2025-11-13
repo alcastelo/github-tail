@@ -1,79 +1,79 @@
 {
   "source": {
     "type": "github_search_repos",
-    "query": "stars:>=20 pushed:>2025-11-13T19:04:05",
+    "query": "stars:>=20 pushed:>2025-11-13T19:07:08",
     "min_stars": 20
   },
-  "last_updated": "2025-11-13T19:07:08.109950+00:00",
+  "last_updated": "2025-11-13T19:16:24.412086+00:00",
   "count": 50,
-  "total_available": 192,
+  "total_available": 572,
   "projects": [
     {
-      "id": 842680197,
-      "name": "cs2-signatures",
-      "full_name": "ianlucas/cs2-signatures",
-      "html_url": "https://github.com/ianlucas/cs2-signatures",
-      "description": " Counter-Strike 2 Server Signatures Tracker",
-      "stargazers_count": 68,
-      "language": null,
-      "updated_at": "2025-11-13T19:07:06Z",
-      "pushed_at": "2025-11-13T19:07:03Z",
+      "id": 3019537,
+      "name": "cinnamon",
+      "full_name": "linuxmint/cinnamon",
+      "html_url": "https://github.com/linuxmint/cinnamon",
+      "description": "A Linux desktop featuring a traditional layout, built from modern technology and introducing brand new innovative features. ",
+      "stargazers_count": 5113,
+      "language": "JavaScript",
+      "updated_at": "2025-11-13T19:16:22Z",
+      "pushed_at": "2025-11-13T19:16:18Z",
       "fork": false,
       "owner": {
-        "login": "ianlucas",
-        "avatar_url": "https://avatars.githubusercontent.com/u/9924503?v=4",
-        "html_url": "https://github.com/ianlucas"
+        "login": "linuxmint",
+        "avatar_url": "https://avatars.githubusercontent.com/u/107184?v=4",
+        "html_url": "https://github.com/linuxmint"
       }
     },
     {
-      "id": 1078137951,
-      "name": "alt-sendme",
-      "full_name": "tonyantony300/alt-sendme",
-      "html_url": "https://github.com/tonyantony300/alt-sendme",
-      "description": "Share files and directories anywhere - Local or Public Internet",
-      "stargazers_count": 1870,
+      "id": 49016322,
+      "name": "components",
+      "full_name": "angular/components",
+      "html_url": "https://github.com/angular/components",
+      "description": "Component infrastructure and Material Design components for Angular",
+      "stargazers_count": 24939,
       "language": "TypeScript",
-      "updated_at": "2025-11-13T19:07:05Z",
-      "pushed_at": "2025-11-13T19:07:01Z",
+      "updated_at": "2025-11-13T19:16:21Z",
+      "pushed_at": "2025-11-13T19:16:19Z",
       "fork": false,
       "owner": {
-        "login": "tonyantony300",
-        "avatar_url": "https://avatars.githubusercontent.com/u/54979586?v=4",
-        "html_url": "https://github.com/tonyantony300"
+        "login": "angular",
+        "avatar_url": "https://avatars.githubusercontent.com/u/139426?v=4",
+        "html_url": "https://github.com/angular"
       }
     },
     {
-      "id": 29702213,
-      "name": "eigen",
-      "full_name": "artsy/eigen",
-      "html_url": "https://github.com/artsy/eigen",
-      "description": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.",
-      "stargazers_count": 3727,
-      "language": "TypeScript",
-      "updated_at": "2025-11-13T19:07:04Z",
-      "pushed_at": "2025-11-13T19:07:02Z",
+      "id": 837279992,
+      "name": "AdBlock_Rule_For_Clash",
+      "full_name": "REIJI007/AdBlock_Rule_For_Clash",
+      "html_url": "https://github.com/REIJI007/AdBlock_Rule_For_Clash",
+      "description": "适用于Clash（premium核心与mihomo核心）的广告域名拦截RULE-SET规则集，每20分钟更新一次",
+      "stargazers_count": 261,
+      "language": "PowerShell",
+      "updated_at": "2025-11-13T19:16:20Z",
+      "pushed_at": "2025-11-13T19:16:16Z",
       "fork": false,
       "owner": {
-        "login": "artsy",
-        "avatar_url": "https://avatars.githubusercontent.com/u/546231?v=4",
-        "html_url": "https://github.com/artsy"
+        "login": "REIJI007",
+        "avatar_url": "https://avatars.githubusercontent.com/u/176358580?v=4",
+        "html_url": "https://github.com/REIJI007"
       }
     },
     {
-      "id": 406494139,
-      "name": "termux-packages",
-      "full_name": "termux-pacman/termux-packages",
-      "html_url": "https://github.com/termux-pacman/termux-packages",
-      "description": "A build system and primary set of packages in format pacman for Termux.",
-      "stargazers_count": 130,
-      "language": "Shell",
-      "updated_at": "2025-11-13T19:07:03Z",
-      "pushed_at": "2025-11-13T19:07:06Z",
+      "id": 1077129498,
+      "name": "gazelle-tui",
+      "full_name": "Zeus-Deus/gazelle-tui",
+      "html_url": "https://github.com/Zeus-Deus/gazelle-tui",
+      "description": null,
+      "stargazers_count": 64,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:19Z",
+      "pushed_at": "2025-11-13T19:16:15Z",
       "fork": false,
       "owner": {
-        "login": "termux-pacman",
-        "avatar_url": "https://avatars.githubusercontent.com/u/103430209?v=4",
-        "html_url": "https://github.com/termux-pacman"
+        "login": "Zeus-Deus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/100132710?v=4",
+        "html_url": "https://github.com/Zeus-Deus"
       }
     },
     {
@@ -84,8 +84,8 @@
       "description": "local trading of BNB and Meme Rush tokens on Binance Smart Chain",
       "stargazers_count": 26,
       "language": "Python",
-      "updated_at": "2025-11-13T19:07:03Z",
-      "pushed_at": "2025-11-13T19:06:59Z",
+      "updated_at": "2025-11-13T19:16:18Z",
+      "pushed_at": "2025-11-13T19:16:14Z",
       "fork": false,
       "owner": {
         "login": "gAlAxYnINJaTE",
@@ -94,241 +94,445 @@
       }
     },
     {
-      "id": 2446718,
-      "name": "docs",
-      "full_name": "mongodb/docs",
-      "html_url": "https://github.com/mongodb/docs",
-      "description": "The MongoDB Documentation Project Source.",
-      "stargazers_count": 758,
-      "language": "Kotlin",
-      "updated_at": "2025-11-13T19:07:02Z",
-      "pushed_at": "2025-11-13T19:06:57Z",
-      "fork": false,
-      "owner": {
-        "login": "mongodb",
-        "avatar_url": "https://avatars.githubusercontent.com/u/45120?v=4",
-        "html_url": "https://github.com/mongodb"
-      }
-    },
-    {
-      "id": 417499108,
-      "name": "syne-tune",
-      "full_name": "syne-tune/syne-tune",
-      "html_url": "https://github.com/syne-tune/syne-tune",
-      "description": "Large scale and asynchronous Hyperparameter and Architecture Optimization at your fingertips.",
-      "stargazers_count": 417,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:07:01Z",
-      "pushed_at": "2025-11-13T19:06:59Z",
-      "fork": false,
-      "owner": {
-        "login": "syne-tune",
-        "avatar_url": "https://avatars.githubusercontent.com/u/171298552?v=4",
-        "html_url": "https://github.com/syne-tune"
-      }
-    },
-    {
-      "id": 194590543,
-      "name": "slider",
-      "full_name": "r-lib/slider",
-      "html_url": "https://github.com/r-lib/slider",
-      "description": "Sliding Window Functions",
-      "stargazers_count": 307,
-      "language": "R",
-      "updated_at": "2025-11-13T19:07:00Z",
-      "pushed_at": "2025-11-13T19:06:56Z",
-      "fork": false,
-      "owner": {
-        "login": "r-lib",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22618716?v=4",
-        "html_url": "https://github.com/r-lib"
-      }
-    },
-    {
-      "id": 113155695,
-      "name": "Manual",
-      "full_name": "Bforartists/Manual",
-      "html_url": "https://github.com/Bforartists/Manual",
-      "description": "The Bforartists Manual",
-      "stargazers_count": 20,
-      "language": null,
-      "updated_at": "2025-11-13T19:07:00Z",
-      "pushed_at": "2025-11-13T19:06:55Z",
-      "fork": false,
-      "owner": {
-        "login": "Bforartists",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13919723?v=4",
-        "html_url": "https://github.com/Bforartists"
-      }
-    },
-    {
-      "id": 163893962,
-      "name": "website",
-      "full_name": "golang/website",
-      "html_url": "https://github.com/golang/website",
-      "description": "[mirror] Home of the go.dev and golang.org websites",
-      "stargazers_count": 420,
-      "language": "HTML",
-      "updated_at": "2025-11-13T19:07:00Z",
-      "pushed_at": "2025-11-13T19:06:55Z",
-      "fork": false,
-      "owner": {
-        "login": "golang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4314092?v=4",
-        "html_url": "https://github.com/golang"
-      }
-    },
-    {
-      "id": 747859412,
-      "name": "github-insights",
-      "full_name": "loic-sharma/github-insights",
-      "html_url": "https://github.com/loic-sharma/github-insights",
-      "description": null,
-      "stargazers_count": 22,
-      "language": "Dart",
-      "updated_at": "2025-11-13T19:06:59Z",
-      "pushed_at": "2025-11-13T19:06:55Z",
-      "fork": false,
-      "owner": {
-        "login": "loic-sharma",
-        "avatar_url": "https://avatars.githubusercontent.com/u/737941?v=4",
-        "html_url": "https://github.com/loic-sharma"
-      }
-    },
-    {
-      "id": 29887499,
-      "name": "open-source-ios-apps",
-      "full_name": "dkhamsing/open-source-ios-apps",
-      "html_url": "https://github.com/dkhamsing/open-source-ios-apps",
-      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
-      "stargazers_count": 47366,
-      "language": null,
-      "updated_at": "2025-11-13T19:06:59Z",
-      "pushed_at": "2025-11-13T19:06:47Z",
-      "fork": false,
-      "owner": {
-        "login": "dkhamsing",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4723115?v=4",
-        "html_url": "https://github.com/dkhamsing"
-      }
-    },
-    {
-      "id": 560452041,
-      "name": "blocklist-abuseipdb",
-      "full_name": "borestad/blocklist-abuseipdb",
-      "html_url": "https://github.com/borestad/blocklist-abuseipdb",
-      "description": "Aggregated AbuseIPDB blocklists with worst IPv4 & IPv6 offenders (~99% confidence)",
-      "stargazers_count": 354,
+      "id": 759288330,
+      "name": "nodeshare",
+      "full_name": "tglaoshiji/nodeshare",
+      "html_url": "https://github.com/tglaoshiji/nodeshare",
+      "description": "clash,v2ray, 免费节点订阅每日更新",
+      "stargazers_count": 98,
       "language": "Shell",
-      "updated_at": "2025-11-13T19:06:59Z",
-      "pushed_at": "2025-11-13T19:06:46Z",
+      "updated_at": "2025-11-13T19:16:17Z",
+      "pushed_at": "2025-11-13T19:16:13Z",
       "fork": false,
       "owner": {
-        "login": "borestad",
-        "avatar_url": "https://avatars.githubusercontent.com/u/286455?v=4",
-        "html_url": "https://github.com/borestad"
+        "login": "tglaoshiji",
+        "avatar_url": "https://avatars.githubusercontent.com/u/153902451?v=4",
+        "html_url": "https://github.com/tglaoshiji"
       }
     },
     {
-      "id": 5244445,
-      "name": "AntennaPod",
-      "full_name": "AntennaPod/AntennaPod",
-      "html_url": "https://github.com/AntennaPod/AntennaPod",
-      "description": "A podcast manager for Android",
-      "stargazers_count": 7406,
+      "id": 441276469,
+      "name": "ChatPatches",
+      "full_name": "mrbuilder1961/ChatPatches",
+      "html_url": "https://github.com/mrbuilder1961/ChatPatches",
+      "description": "A Minecraft client-side mod that touches up Minecraft's mundane chat, with configurability in mind!",
+      "stargazers_count": 60,
       "language": "Java",
-      "updated_at": "2025-11-13T19:06:57Z",
-      "pushed_at": "2025-11-13T19:06:51Z",
+      "updated_at": "2025-11-13T19:16:15Z",
+      "pushed_at": "2025-11-13T19:16:11Z",
       "fork": false,
       "owner": {
-        "login": "AntennaPod",
-        "avatar_url": "https://avatars.githubusercontent.com/u/10713470?v=4",
-        "html_url": "https://github.com/AntennaPod"
+        "login": "mrbuilder1961",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66807297?v=4",
+        "html_url": "https://github.com/mrbuilder1961"
       }
     },
     {
-      "id": 517052839,
-      "name": "knot",
-      "full_name": "intechstudio/knot",
-      "html_url": "https://github.com/intechstudio/knot",
-      "description": null,
-      "stargazers_count": 55,
-      "language": "C",
-      "updated_at": "2025-11-13T19:06:55Z",
-      "pushed_at": "2025-11-13T19:06:50Z",
-      "fork": false,
-      "owner": {
-        "login": "intechstudio",
-        "avatar_url": "https://avatars.githubusercontent.com/u/66415658?v=4",
-        "html_url": "https://github.com/intechstudio"
-      }
-    },
-    {
-      "id": 47751755,
-      "name": "gerrit",
-      "full_name": "GerritCodeReview/gerrit",
-      "html_url": "https://github.com/GerritCodeReview/gerrit",
-      "description": "Gerrit Code Review - (mirror of https://gerrit.googlesource.com/gerrit)",
-      "stargazers_count": 1126,
-      "language": "Java",
-      "updated_at": "2025-11-13T19:06:53Z",
-      "pushed_at": "2025-11-13T19:06:49Z",
-      "fork": false,
-      "owner": {
-        "login": "GerritCodeReview",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7028910?v=4",
-        "html_url": "https://github.com/GerritCodeReview"
-      }
-    },
-    {
-      "id": 1080691655,
-      "name": "llama.swift",
-      "full_name": "mattt/llama.swift",
-      "html_url": "https://github.com/mattt/llama.swift",
-      "description": "A package that provides semantically versioned access to llama.cpp in your Swift projects.",
-      "stargazers_count": 25,
-      "language": "Swift",
-      "updated_at": "2025-11-13T19:06:51Z",
-      "pushed_at": "2025-11-13T19:06:47Z",
-      "fork": false,
-      "owner": {
-        "login": "mattt",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7659?v=4",
-        "html_url": "https://github.com/mattt"
-      }
-    },
-    {
-      "id": 641487831,
-      "name": "www-project-top-10-for-large-language-model-applications",
-      "full_name": "OWASP/www-project-top-10-for-large-language-model-applications",
-      "html_url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
-      "description": "OWASP Top 10 for Large Language Model Apps (Part of the GenAI Security Project)",
-      "stargazers_count": 948,
-      "language": "TeX",
-      "updated_at": "2025-11-13T19:06:50Z",
-      "pushed_at": "2025-11-13T19:06:45Z",
-      "fork": false,
-      "owner": {
-        "login": "OWASP",
-        "avatar_url": "https://avatars.githubusercontent.com/u/155815?v=4",
-        "html_url": "https://github.com/OWASP"
-      }
-    },
-    {
-      "id": 242174446,
-      "name": "matrix-rust-sdk",
-      "full_name": "matrix-org/matrix-rust-sdk",
-      "html_url": "https://github.com/matrix-org/matrix-rust-sdk",
-      "description": "Matrix Client-Server SDK for Rust",
-      "stargazers_count": 1709,
+      "id": 179385712,
+      "name": "bottlerocket",
+      "full_name": "bottlerocket-os/bottlerocket",
+      "html_url": "https://github.com/bottlerocket-os/bottlerocket",
+      "description": "An operating system designed for hosting containers",
+      "stargazers_count": 9440,
       "language": "Rust",
-      "updated_at": "2025-11-13T19:06:50Z",
-      "pushed_at": "2025-11-13T19:06:45Z",
+      "updated_at": "2025-11-13T19:16:15Z",
+      "pushed_at": "2025-11-13T19:16:10Z",
       "fork": false,
       "owner": {
-        "login": "matrix-org",
-        "avatar_url": "https://avatars.githubusercontent.com/u/8418310?v=4",
-        "html_url": "https://github.com/matrix-org"
+        "login": "bottlerocket-os",
+        "avatar_url": "https://avatars.githubusercontent.com/u/61023959?v=4",
+        "html_url": "https://github.com/bottlerocket-os"
+      }
+    },
+    {
+      "id": 93496485,
+      "name": "Wind-Blade-Inspection",
+      "full_name": "hansehe/Wind-Blade-Inspection",
+      "html_url": "https://github.com/hansehe/Wind-Blade-Inspection",
+      "description": "Autonomous wind blade inspection using Hough line transformation, canny edge detection and stereo vision.",
+      "stargazers_count": 29,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:15Z",
+      "pushed_at": "2025-11-13T19:16:07Z",
+      "fork": false,
+      "owner": {
+        "login": "hansehe",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12325253?v=4",
+        "html_url": "https://github.com/hansehe"
+      }
+    },
+    {
+      "id": 34357091,
+      "name": "arcgis-pro-sdk",
+      "full_name": "Esri/arcgis-pro-sdk",
+      "html_url": "https://github.com/Esri/arcgis-pro-sdk",
+      "description": "ArcGIS Pro SDK for Microsoft .NET is the new .NET SDK for the ArcGIS Pro Application.",
+      "stargazers_count": 356,
+      "language": null,
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:14Z",
+      "fork": false,
+      "owner": {
+        "login": "Esri",
+        "avatar_url": "https://avatars.githubusercontent.com/u/628795?v=4",
+        "html_url": "https://github.com/Esri"
+      }
+    },
+    {
+      "id": 757121845,
+      "name": "Proxy-List",
+      "full_name": "r00tee/Proxy-List",
+      "html_url": "https://github.com/r00tee/Proxy-List",
+      "description": "Free Http/s, Socks4, Socks5 Proxy List Updated every 5 minutes",
+      "stargazers_count": 162,
+      "language": null,
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:13Z",
+      "fork": false,
+      "owner": {
+        "login": "r00tee",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32619657?v=4",
+        "html_url": "https://github.com/r00tee"
+      }
+    },
+    {
+      "id": 210374451,
+      "name": "kafka-docker-playground",
+      "full_name": "vdesabou/kafka-docker-playground",
+      "html_url": "https://github.com/vdesabou/kafka-docker-playground",
+      "description": "🐳✨ Fully automated Apache Kafka® and Confluent Docker based examples // 👷‍♂️ Easily build examples or reproduction models",
+      "stargazers_count": 760,
+      "language": "Shell",
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:11Z",
+      "fork": false,
+      "owner": {
+        "login": "vdesabou",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4061923?v=4",
+        "html_url": "https://github.com/vdesabou"
+      }
+    },
+    {
+      "id": 265967597,
+      "name": "news.routley.io",
+      "full_name": "jamesroutley/news.routley.io",
+      "html_url": "https://github.com/jamesroutley/news.routley.io",
+      "description": "🗞 My personal RSS feed",
+      "stargazers_count": 38,
+      "language": "Go",
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:10Z",
+      "fork": false,
+      "owner": {
+        "login": "jamesroutley",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5308905?v=4",
+        "html_url": "https://github.com/jamesroutley"
+      }
+    },
+    {
+      "id": 546206616,
+      "name": "chroma",
+      "full_name": "chroma-core/chroma",
+      "html_url": "https://github.com/chroma-core/chroma",
+      "description": "Open-source search and retrieval database for AI applications.",
+      "stargazers_count": 24382,
+      "language": "Rust",
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:10Z",
+      "fork": false,
+      "owner": {
+        "login": "chroma-core",
+        "avatar_url": "https://avatars.githubusercontent.com/u/105881770?v=4",
+        "html_url": "https://github.com/chroma-core"
+      }
+    },
+    {
+      "id": 230434628,
+      "name": "scoop-apps",
+      "full_name": "ACooper81/scoop-apps",
+      "html_url": "https://github.com/ACooper81/scoop-apps",
+      "description": "A personal bucket for http://scoop.sh",
+      "stargazers_count": 64,
+      "language": "PowerShell",
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:10Z",
+      "fork": false,
+      "owner": {
+        "login": "ACooper81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4954689?v=4",
+        "html_url": "https://github.com/ACooper81"
+      }
+    },
+    {
+      "id": 18524934,
+      "name": "roll20-character-sheets",
+      "full_name": "Roll20/roll20-character-sheets",
+      "html_url": "https://github.com/Roll20/roll20-character-sheets",
+      "description": "Character sheet templates created by the community for use in Roll20 VTT. Submit a ticket at roll20.net/help if critical hotfixes are to be requested.",
+      "stargazers_count": 1200,
+      "language": "HTML",
+      "updated_at": "2025-11-13T19:16:14Z",
+      "pushed_at": "2025-11-13T19:16:09Z",
+      "fork": false,
+      "owner": {
+        "login": "Roll20",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1562882?v=4",
+        "html_url": "https://github.com/Roll20"
+      }
+    },
+    {
+      "id": 365697493,
+      "name": "mathlib4",
+      "full_name": "leanprover-community/mathlib4",
+      "html_url": "https://github.com/leanprover-community/mathlib4",
+      "description": "The math library of Lean 4",
+      "stargazers_count": 2519,
+      "language": "Lean",
+      "updated_at": "2025-11-13T19:16:13Z",
+      "pushed_at": "2025-11-13T19:16:09Z",
+      "fork": false,
+      "owner": {
+        "login": "leanprover-community",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41703605?v=4",
+        "html_url": "https://github.com/leanprover-community"
+      }
+    },
+    {
+      "id": 70491053,
+      "name": "openvidu",
+      "full_name": "OpenVidu/openvidu",
+      "html_url": "https://github.com/OpenVidu/openvidu",
+      "description": "OpenVidu Platform main repository",
+      "stargazers_count": 2051,
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:16:13Z",
+      "pushed_at": "2025-11-13T19:16:08Z",
+      "fork": false,
+      "owner": {
+        "login": "OpenVidu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22744124?v=4",
+        "html_url": "https://github.com/OpenVidu"
+      }
+    },
+    {
+      "id": 315565601,
+      "name": "weibo-trending-hot-search",
+      "full_name": "justjavac/weibo-trending-hot-search",
+      "html_url": "https://github.com/justjavac/weibo-trending-hot-search",
+      "description": "微博热搜榜，记录从 2020-11-24 日开始的微博热门搜索。每小时抓取一次数据，按天归档。",
+      "stargazers_count": 698,
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:16:13Z",
+      "pushed_at": "2025-11-13T19:16:08Z",
+      "fork": false,
+      "owner": {
+        "login": "justjavac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/359395?v=4",
+        "html_url": "https://github.com/justjavac"
+      }
+    },
+    {
+      "id": 8757387,
+      "name": "qudt-public-repo",
+      "full_name": "qudt/qudt-public-repo",
+      "html_url": "https://github.com/qudt/qudt-public-repo",
+      "description": "QUDT -Quantities, Units, Dimensions and dataTypes - public repository",
+      "stargazers_count": 139,
+      "language": "HTML",
+      "updated_at": "2025-11-13T19:16:12Z",
+      "pushed_at": "2025-11-13T19:16:09Z",
+      "fork": false,
+      "owner": {
+        "login": "qudt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3856096?v=4",
+        "html_url": "https://github.com/qudt"
+      }
+    },
+    {
+      "id": 454042481,
+      "name": "nuxt.com",
+      "full_name": "nuxt/nuxt.com",
+      "html_url": "https://github.com/nuxt/nuxt.com",
+      "description": "The Nuxt website, made with Nuxt.",
+      "stargazers_count": 414,
+      "language": "Vue",
+      "updated_at": "2025-11-13T19:16:12Z",
+      "pushed_at": "2025-11-13T19:16:08Z",
+      "fork": false,
+      "owner": {
+        "login": "nuxt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23360933?v=4",
+        "html_url": "https://github.com/nuxt"
+      }
+    },
+    {
+      "id": 398474859,
+      "name": "scrypted",
+      "full_name": "koush/scrypted",
+      "html_url": "https://github.com/koush/scrypted",
+      "description": "Scrypted is a high performance video integration and automation platform",
+      "stargazers_count": 5244,
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:16:12Z",
+      "pushed_at": "2025-11-13T19:16:07Z",
+      "fork": false,
+      "owner": {
+        "login": "koush",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73924?v=4",
+        "html_url": "https://github.com/koush"
+      }
+    },
+    {
+      "id": 870267361,
+      "name": "V2ray-Configs",
+      "full_name": "nyeinkokoaung404/V2ray-Configs",
+      "html_url": "https://github.com/nyeinkokoaung404/V2ray-Configs",
+      "description": "https://subscription.mmvpn.ggff.net",
+      "stargazers_count": 121,
+      "language": "HTML",
+      "updated_at": "2025-11-13T19:16:08Z",
+      "pushed_at": "2025-11-13T19:16:04Z",
+      "fork": false,
+      "owner": {
+        "login": "nyeinkokoaung404",
+        "avatar_url": "https://avatars.githubusercontent.com/u/146018190?v=4",
+        "html_url": "https://github.com/nyeinkokoaung404"
+      }
+    },
+    {
+      "id": 855394474,
+      "name": "llama-stack-client-python",
+      "full_name": "llamastack/llama-stack-client-python",
+      "html_url": "https://github.com/llamastack/llama-stack-client-python",
+      "description": "Python SDK for Llama Stack",
+      "stargazers_count": 186,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:08Z",
+      "pushed_at": "2025-11-13T19:16:13Z",
+      "fork": false,
+      "owner": {
+        "login": "llamastack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/201259543?v=4",
+        "html_url": "https://github.com/llamastack"
+      }
+    },
+    {
+      "id": 820437988,
+      "name": "space_station_ADT",
+      "full_name": "AdventureTimeSS14/space_station_ADT",
+      "html_url": "https://github.com/AdventureTimeSS14/space_station_ADT",
+      "description": "Adventure Time Space Station(New Repositories)",
+      "stargazers_count": 38,
+      "language": "C#",
+      "updated_at": "2025-11-13T19:16:08Z",
+      "pushed_at": "2025-11-13T19:16:04Z",
+      "fork": false,
+      "owner": {
+        "login": "AdventureTimeSS14",
+        "avatar_url": "https://avatars.githubusercontent.com/u/173908072?v=4",
+        "html_url": "https://github.com/AdventureTimeSS14"
+      }
+    },
+    {
+      "id": 168621246,
+      "name": "iaux",
+      "full_name": "internetarchive/iaux",
+      "html_url": "https://github.com/internetarchive/iaux",
+      "description": "Monorepo for Archive.org UX development and prototyping.",
+      "stargazers_count": 72,
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:16:07Z",
+      "pushed_at": "2025-11-13T19:16:04Z",
+      "fork": false,
+      "owner": {
+        "login": "internetarchive",
+        "avatar_url": "https://avatars.githubusercontent.com/u/130493?v=4",
+        "html_url": "https://github.com/internetarchive"
+      }
+    },
+    {
+      "id": 457006774,
+      "name": "cvelistV5",
+      "full_name": "CVEProject/cvelistV5",
+      "html_url": "https://github.com/CVEProject/cvelistV5",
+      "description": "CVE cache of the official CVE List in CVE JSON 5 format",
+      "stargazers_count": 2324,
+      "language": null,
+      "updated_at": "2025-11-13T19:16:07Z",
+      "pushed_at": "2025-11-13T19:16:03Z",
+      "fork": false,
+      "owner": {
+        "login": "CVEProject",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18195825?v=4",
+        "html_url": "https://github.com/CVEProject"
+      }
+    },
+    {
+      "id": 1016771455,
+      "name": "winwing-xplane-plugin",
+      "full_name": "rswilem/winwing-xplane-plugin",
+      "html_url": "https://github.com/rswilem/winwing-xplane-plugin",
+      "description": "This plugin allows you to use Winwing devices in X-Plane 12 without the use of SimAppPro.",
+      "stargazers_count": 20,
+      "language": "C++",
+      "updated_at": "2025-11-13T19:16:05Z",
+      "pushed_at": "2025-11-13T19:16:00Z",
+      "fork": false,
+      "owner": {
+        "login": "rswilem",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18720368?v=4",
+        "html_url": "https://github.com/rswilem"
+      }
+    },
+    {
+      "id": 903987915,
+      "name": "apple-browsers",
+      "full_name": "duckduckgo/apple-browsers",
+      "html_url": "https://github.com/duckduckgo/apple-browsers",
+      "description": "DuckDuckGo iOS & macOS browsers",
+      "stargazers_count": 132,
+      "language": "Swift",
+      "updated_at": "2025-11-13T19:16:04Z",
+      "pushed_at": "2025-11-13T19:16:01Z",
+      "fork": false,
+      "owner": {
+        "login": "duckduckgo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/342708?v=4",
+        "html_url": "https://github.com/duckduckgo"
+      }
+    },
+    {
+      "id": 786340919,
+      "name": "Free-Telegram-Store-Bot",
+      "full_name": "indmdev/Free-Telegram-Store-Bot",
+      "html_url": "https://github.com/indmdev/Free-Telegram-Store-Bot",
+      "description": "This is 100% Free Shop Bot, Is a Telegram Store Bot you can use for selling your products and services and managing your products and orders. You customers can  easily shop on you store with confidence using this Auto shop bot.",
+      "stargazers_count": 69,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:04Z",
+      "pushed_at": "2025-11-13T19:16:00Z",
+      "fork": false,
+      "owner": {
+        "login": "indmdev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/147909393?v=4",
+        "html_url": "https://github.com/indmdev"
+      }
+    },
+    {
+      "id": 701843609,
+      "name": "fresh-proxy-list",
+      "full_name": "vakhov/fresh-proxy-list",
+      "html_url": "https://github.com/vakhov/fresh-proxy-list",
+      "description": "Provides a list of fresh, working proxy servers (HTTP, HTTPS, SOCKS4 & SOCKS5) with multiple formats available for download.",
+      "stargazers_count": 300,
+      "language": "PHP",
+      "updated_at": "2025-11-13T19:16:04Z",
+      "pushed_at": "2025-11-13T19:16:00Z",
+      "fork": false,
+      "owner": {
+        "login": "vakhov",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2041055?v=4",
+        "html_url": "https://github.com/vakhov"
       }
     },
     {
@@ -339,8 +543,8 @@
       "description": "AI Trading bot with Hyperliquid Meme Rush tokens on Binance Smart Chain",
       "stargazers_count": 39,
       "language": "Python",
-      "updated_at": "2025-11-13T19:06:48Z",
-      "pushed_at": "2025-11-13T19:06:44Z",
+      "updated_at": "2025-11-13T19:16:03Z",
+      "pushed_at": "2025-11-13T19:15:59Z",
       "fork": false,
       "owner": {
         "login": "ShAdOWXdrIfTh",
@@ -349,71 +553,54 @@
       }
     },
     {
-      "id": 70365100,
-      "name": "macports-ports",
-      "full_name": "macports/macports-ports",
-      "html_url": "https://github.com/macports/macports-ports",
-      "description": "The MacPorts ports tree",
-      "stargazers_count": 1679,
+      "id": 557075997,
+      "name": "reflex",
+      "full_name": "reflex-dev/reflex",
+      "html_url": "https://github.com/reflex-dev/reflex",
+      "description": "🕸️ Web apps in pure Python 🐍",
+      "stargazers_count": 27503,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:03Z",
+      "pushed_at": "2025-11-13T19:15:59Z",
+      "fork": false,
+      "owner": {
+        "login": "reflex-dev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/104714959?v=4",
+        "html_url": "https://github.com/reflex-dev"
+      }
+    },
+    {
+      "id": 26193547,
+      "name": "crates.io-index",
+      "full_name": "rust-lang/crates.io-index",
+      "html_url": "https://github.com/rust-lang/crates.io-index",
+      "description": "Registry index for crates.io",
+      "stargazers_count": 660,
       "language": "Tcl",
-      "updated_at": "2025-11-13T19:06:48Z",
-      "pushed_at": "2025-11-13T19:06:43Z",
+      "updated_at": "2025-11-13T19:16:03Z",
+      "pushed_at": "2025-11-13T19:16:21Z",
       "fork": false,
       "owner": {
-        "login": "macports",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4225322?v=4",
-        "html_url": "https://github.com/macports"
+        "login": "rust-lang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5430905?v=4",
+        "html_url": "https://github.com/rust-lang"
       }
     },
     {
-      "id": 865059450,
-      "name": "My-Streams",
-      "full_name": "BuddyChewChew/My-Streams",
-      "html_url": "https://github.com/BuddyChewChew/My-Streams",
-      "description": "🏠 Repo Home",
-      "stargazers_count": 79,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:47Z",
-      "pushed_at": "2025-11-13T19:06:44Z",
+      "id": 1034918094,
+      "name": "ironmount",
+      "full_name": "nicotsx/ironmount",
+      "html_url": "https://github.com/nicotsx/ironmount",
+      "description": "Backup automations for self-hosters",
+      "stargazers_count": 91,
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:16:01Z",
+      "pushed_at": "2025-11-13T19:16:10Z",
       "fork": false,
       "owner": {
-        "login": "BuddyChewChew",
-        "avatar_url": "https://avatars.githubusercontent.com/u/144280901?v=4",
-        "html_url": "https://github.com/BuddyChewChew"
-      }
-    },
-    {
-      "id": 1052436490,
-      "name": "GoogleFindMy-HA",
-      "full_name": "BSkando/GoogleFindMy-HA",
-      "html_url": "https://github.com/BSkando/GoogleFindMy-HA",
-      "description": "Google FindMy device tracker integration for Home Assistant",
-      "stargazers_count": 93,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:47Z",
-      "pushed_at": "2025-11-13T19:06:43Z",
-      "fork": false,
-      "owner": {
-        "login": "BSkando",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124605801?v=4",
-        "html_url": "https://github.com/BSkando"
-      }
-    },
-    {
-      "id": 974445592,
-      "name": "agent-framework",
-      "full_name": "microsoft/agent-framework",
-      "html_url": "https://github.com/microsoft/agent-framework",
-      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
-      "stargazers_count": 5024,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:44Z",
-      "pushed_at": "2025-11-13T19:06:42Z",
-      "fork": false,
-      "owner": {
-        "login": "microsoft",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-        "html_url": "https://github.com/microsoft"
+        "login": "nicotsx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47644445?v=4",
+        "html_url": "https://github.com/nicotsx"
       }
     },
     {
@@ -424,8 +611,8 @@
       "description": "EVM Sniper Bot v4.31 is a sniping bot for local trading of BNB and Meme Rush tokens on Binance Smart Chain.",
       "stargazers_count": 291,
       "language": "Python",
-      "updated_at": "2025-11-13T19:06:44Z",
-      "pushed_at": "2025-11-13T19:06:41Z",
+      "updated_at": "2025-11-13T19:16:01Z",
+      "pushed_at": "2025-11-13T19:15:57Z",
       "fork": false,
       "owner": {
         "login": "PYrOogrEvENUs",
@@ -434,71 +621,105 @@
       }
     },
     {
-      "id": 251606126,
-      "name": "content",
-      "full_name": "nuxt/content",
-      "html_url": "https://github.com/nuxt/content",
-      "description": "The file-based CMS for your Nuxt application, powered by Markdown and Vue components.",
-      "stargazers_count": 3510,
-      "language": "TypeScript",
-      "updated_at": "2025-11-13T19:06:44Z",
-      "pushed_at": "2025-11-13T19:06:39Z",
+      "id": 262875487,
+      "name": "deployment-validation-operator",
+      "full_name": "app-sre/deployment-validation-operator",
+      "html_url": "https://github.com/app-sre/deployment-validation-operator",
+      "description": "The Deployment Validator Operator (DVO) checks deployments and other resources against a curated collection of best practices.",
+      "stargazers_count": 58,
+      "language": "Go",
+      "updated_at": "2025-11-13T19:16:01Z",
+      "pushed_at": "2025-11-13T19:15:56Z",
       "fork": false,
       "owner": {
-        "login": "nuxt",
-        "avatar_url": "https://avatars.githubusercontent.com/u/23360933?v=4",
-        "html_url": "https://github.com/nuxt"
+        "login": "app-sre",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43133889?v=4",
+        "html_url": "https://github.com/app-sre"
       }
     },
     {
-      "id": 49562518,
-      "name": "feedstocks",
-      "full_name": "conda-forge/feedstocks",
-      "html_url": "https://github.com/conda-forge/feedstocks",
-      "description": "All conda-forge feedstocks, in one convenient place",
-      "stargazers_count": 67,
+      "id": 973063740,
+      "name": "V2RayConfig",
+      "full_name": "V2RayRoot/V2RayConfig",
+      "html_url": "https://github.com/V2RayRoot/V2RayConfig",
+      "description": "Automatically fetch free V2Ray configs from Telegram channels.",
+      "stargazers_count": 73,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:16:00Z",
+      "pushed_at": "2025-11-13T19:15:56Z",
+      "fork": false,
+      "owner": {
+        "login": "V2RayRoot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/171795731?v=4",
+        "html_url": "https://github.com/V2RayRoot"
+      }
+    },
+    {
+      "id": 548804106,
+      "name": "YouTubeBot",
+      "full_name": "Setiawan007/YouTubeBot",
+      "html_url": "https://github.com/Setiawan007/YouTubeBot",
+      "description": "Youtube Bot dibangun menggunakan Python dan digunakan untuk menambah jam tayang youtube",
+      "stargazers_count": 22,
+      "language": "Python",
+      "updated_at": "2025-11-13T19:15:59Z",
+      "pushed_at": "2025-11-13T19:15:56Z",
+      "fork": false,
+      "owner": {
+        "login": "Setiawan007",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33013375?v=4",
+        "html_url": "https://github.com/Setiawan007"
+      }
+    },
+    {
+      "id": 806261687,
+      "name": "SteamOS-wallpaper-engine-kde-plugin",
+      "full_name": "slynobody/SteamOS-wallpaper-engine-kde-plugin",
+      "html_url": "https://github.com/slynobody/SteamOS-wallpaper-engine-kde-plugin",
+      "description": "wallpaper-engine on linux (kde-/plasma, precompiled)",
+      "stargazers_count": 196,
+      "language": "QML",
+      "updated_at": "2025-11-13T19:15:59Z",
+      "pushed_at": "2025-11-13T19:15:55Z",
+      "fork": false,
+      "owner": {
+        "login": "slynobody",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55579266?v=4",
+        "html_url": "https://github.com/slynobody"
+      }
+    },
+    {
+      "id": 782565519,
+      "name": "opencve-kb",
+      "full_name": "opencve/opencve-kb",
+      "html_url": "https://github.com/opencve/opencve-kb",
+      "description": null,
+      "stargazers_count": 26,
       "language": null,
-      "updated_at": "2025-11-13T19:06:43Z",
-      "pushed_at": "2025-11-13T19:06:40Z",
+      "updated_at": "2025-11-13T19:15:58Z",
+      "pushed_at": "2025-11-13T19:15:54Z",
       "fork": false,
       "owner": {
-        "login": "conda-forge",
-        "avatar_url": "https://avatars.githubusercontent.com/u/11897326?v=4",
-        "html_url": "https://github.com/conda-forge"
+        "login": "opencve",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69653768?v=4",
+        "html_url": "https://github.com/opencve"
       }
     },
     {
-      "id": 704420266,
-      "name": "swiftly",
-      "full_name": "swiftly-solution/swiftly",
-      "html_url": "https://github.com/swiftly-solution/swiftly",
-      "description": "Lua/C#-based framework for CS2/Source2",
-      "stargazers_count": 87,
-      "language": "C#",
-      "updated_at": "2025-11-13T19:06:43Z",
-      "pushed_at": "2025-11-13T19:06:39Z",
+      "id": 371128434,
+      "name": "connectors",
+      "full_name": "estuary/connectors",
+      "html_url": "https://github.com/estuary/connectors",
+      "description": "Connectors for capturing data from external data sources",
+      "stargazers_count": 75,
+      "language": "Go",
+      "updated_at": "2025-11-13T19:15:58Z",
+      "pushed_at": "2025-11-13T19:16:03Z",
       "fork": false,
       "owner": {
-        "login": "swiftly-solution",
-        "avatar_url": "https://avatars.githubusercontent.com/u/118755242?v=4",
-        "html_url": "https://github.com/swiftly-solution"
-      }
-    },
-    {
-      "id": 315977578,
-      "name": "evidently",
-      "full_name": "evidentlyai/evidently",
-      "html_url": "https://github.com/evidentlyai/evidently",
-      "description": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
-      "stargazers_count": 6811,
-      "language": "Jupyter Notebook",
-      "updated_at": "2025-11-13T19:06:42Z",
-      "pushed_at": "2025-11-13T19:06:39Z",
-      "fork": false,
-      "owner": {
-        "login": "evidentlyai",
-        "avatar_url": "https://avatars.githubusercontent.com/u/75031056?v=4",
-        "html_url": "https://github.com/evidentlyai"
+        "login": "estuary",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59032085?v=4",
+        "html_url": "https://github.com/estuary"
       }
     },
     {
@@ -509,8 +730,8 @@
       "description": "Autonomous DeFi arbitrage bot deployer. Deploy smart contract on Ethereum, Arbitrum, Polygon. AI-powered trading with 0.001% commission.",
       "stargazers_count": 38,
       "language": null,
-      "updated_at": "2025-11-13T19:06:41Z",
-      "pushed_at": "2025-11-13T19:06:38Z",
+      "updated_at": "2025-11-13T19:15:56Z",
+      "pushed_at": "2025-11-13T19:15:52Z",
       "fork": false,
       "owner": {
         "login": "WaRPFaLCon200",
@@ -519,343 +740,122 @@
       }
     },
     {
-      "id": 926648217,
-      "name": "html-to-markdown",
-      "full_name": "Goldziher/html-to-markdown",
-      "html_url": "https://github.com/Goldziher/html-to-markdown",
-      "description": "High performance and CommonMark compliant HTML to Markdown converter",
-      "stargazers_count": 348,
-      "language": "HTML",
-      "updated_at": "2025-11-13T19:06:41Z",
-      "pushed_at": "2025-11-13T19:06:37Z",
+      "id": 899109437,
+      "name": "arm-toolchain",
+      "full_name": "arm/arm-toolchain",
+      "html_url": "https://github.com/arm/arm-toolchain",
+      "description": "A project dedicated to building LLVM toolchain for Arm and AArch64 embedded targets and AArch64 native Linux development.",
+      "stargazers_count": 148,
+      "language": "LLVM",
+      "updated_at": "2025-11-13T19:15:56Z",
+      "pushed_at": "2025-11-13T19:15:51Z",
       "fork": false,
       "owner": {
-        "login": "Goldziher",
-        "avatar_url": "https://avatars.githubusercontent.com/u/30733348?v=4",
-        "html_url": "https://github.com/Goldziher"
+        "login": "arm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/184160443?v=4",
+        "html_url": "https://github.com/arm"
       }
     },
     {
-      "id": 99178995,
-      "name": "eth-phishing-detect",
-      "full_name": "MetaMask/eth-phishing-detect",
-      "html_url": "https://github.com/MetaMask/eth-phishing-detect",
-      "description": "Utility for detecting phishing domains targeting Web3 users",
-      "stargazers_count": 1222,
-      "language": "TypeScript",
-      "updated_at": "2025-11-13T19:06:41Z",
-      "pushed_at": "2025-11-13T19:06:36Z",
-      "fork": false,
-      "owner": {
-        "login": "MetaMask",
-        "avatar_url": "https://avatars.githubusercontent.com/u/11744586?v=4",
-        "html_url": "https://github.com/MetaMask"
-      }
-    },
-    {
-      "id": 461632847,
-      "name": "P4SimpleScc",
-      "full_name": "botman99/P4SimpleScc",
-      "html_url": "https://github.com/botman99/P4SimpleScc",
-      "description": "Perforce source code control provider",
-      "stargazers_count": 20,
-      "language": "C#",
-      "updated_at": "2025-11-13T19:06:41Z",
-      "pushed_at": "2025-11-13T19:06:36Z",
-      "fork": false,
-      "owner": {
-        "login": "botman99",
-        "avatar_url": "https://avatars.githubusercontent.com/u/10872951?v=4",
-        "html_url": "https://github.com/botman99"
-      }
-    },
-    {
-      "id": 27522247,
-      "name": "exp",
-      "full_name": "golang/exp",
-      "html_url": "https://github.com/golang/exp",
-      "description": "[mirror] Experimental and deprecated packages",
-      "stargazers_count": 856,
-      "language": "Go",
-      "updated_at": "2025-11-13T19:06:40Z",
-      "pushed_at": "2025-11-13T19:06:36Z",
-      "fork": false,
-      "owner": {
-        "login": "golang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4314092?v=4",
-        "html_url": "https://github.com/golang"
-      }
-    },
-    {
-      "id": 622035598,
-      "name": "Klipper-Backup",
-      "full_name": "Staubgeborener/Klipper-Backup",
-      "html_url": "https://github.com/Staubgeborener/Klipper-Backup",
-      "description": "Klipper-Backup is a script for manual or automated Klipper GitHub backups. It's lightweight, pragmatic and comfortable.",
-      "stargazers_count": 441,
-      "language": "Shell",
-      "updated_at": "2025-11-13T19:06:39Z",
-      "pushed_at": "2025-11-13T19:06:34Z",
-      "fork": false,
-      "owner": {
-        "login": "Staubgeborener",
-        "avatar_url": "https://avatars.githubusercontent.com/u/28908603?v=4",
-        "html_url": "https://github.com/Staubgeborener"
-      }
-    },
-    {
-      "id": 444497690,
-      "name": "ledger-live",
-      "full_name": "LedgerHQ/ledger-live",
-      "html_url": "https://github.com/LedgerHQ/ledger-live",
-      "description": "Mono-repository for packages related to Ledger Live and its JavaScript ecosystem.",
-      "stargazers_count": 534,
-      "language": "JavaScript",
-      "updated_at": "2025-11-13T19:06:38Z",
-      "pushed_at": "2025-11-13T19:06:35Z",
-      "fork": false,
-      "owner": {
-        "login": "LedgerHQ",
-        "avatar_url": "https://avatars.githubusercontent.com/u/9784193?v=4",
-        "html_url": "https://github.com/LedgerHQ"
-      }
-    },
-    {
-      "id": 197033610,
-      "name": "hash",
-      "full_name": "hashintel/hash",
-      "html_url": "https://github.com/hashintel/hash",
-      "description": "🚀  The open-source, multi-tenant, self-building knowledge graph",
-      "stargazers_count": 1367,
-      "language": "Rust",
-      "updated_at": "2025-11-13T19:06:36Z",
-      "pushed_at": "2025-11-13T19:06:34Z",
-      "fork": false,
-      "owner": {
-        "login": "hashintel",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22116112?v=4",
-        "html_url": "https://github.com/hashintel"
-      }
-    },
-    {
-      "id": 717989581,
-      "name": "IPDB",
-      "full_name": "ymyuuu/IPDB",
-      "html_url": "https://github.com/ymyuuu/IPDB",
-      "description": "Cloudflare反代优选IP库",
-      "stargazers_count": 2198,
+      "id": 973061586,
+      "name": "CricHd-playlists-Auto-Update-permanent",
+      "full_name": "abusaeeidx/CricHd-playlists-Auto-Update-permanent",
+      "html_url": "https://github.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent",
+      "description": "🌐 CricHD Playlist – Free Live Sports Streaming 🏏 with auto-updated m3u8 playlists every 15 minutes | 🚫 Ad-free | ⚡ Buffer-free | 📱 Works on all devices",
+      "stargazers_count": 23,
       "language": null,
-      "updated_at": "2025-11-13T19:06:36Z",
-      "pushed_at": "2025-11-13T19:06:34Z",
+      "updated_at": "2025-11-13T19:15:55Z",
+      "pushed_at": "2025-11-13T19:15:52Z",
       "fork": false,
       "owner": {
-        "login": "ymyuuu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/135582157?v=4",
-        "html_url": "https://github.com/ymyuuu"
+        "login": "abusaeeidx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/165541154?v=4",
+        "html_url": "https://github.com/abusaeeidx"
       }
     },
     {
-      "id": 675305584,
-      "name": "jadx-plugins-list",
-      "full_name": "jadx-decompiler/jadx-plugins-list",
-      "html_url": "https://github.com/jadx-decompiler/jadx-plugins-list",
-      "description": "Jadx plugins community list",
-      "stargazers_count": 41,
-      "language": "Kotlin",
-      "updated_at": "2025-11-13T19:06:36Z",
-      "pushed_at": "2025-11-13T19:06:32Z",
-      "fork": false,
-      "owner": {
-        "login": "jadx-decompiler",
-        "avatar_url": "https://avatars.githubusercontent.com/u/35379408?v=4",
-        "html_url": "https://github.com/jadx-decompiler"
-      }
-    },
-    {
-      "id": 921308479,
-      "name": "vscode-containers",
-      "full_name": "microsoft/vscode-containers",
-      "html_url": "https://github.com/microsoft/vscode-containers",
-      "description": "Container Tools Extension for Visual Studio Code",
-      "stargazers_count": 79,
+      "id": 532837670,
+      "name": "create",
+      "full_name": "sxzz/create",
+      "html_url": "https://github.com/sxzz/create",
+      "description": "Command-line for creating projects from templates.",
+      "stargazers_count": 48,
       "language": "TypeScript",
-      "updated_at": "2025-11-13T19:06:33Z",
-      "pushed_at": "2025-11-13T19:06:30Z",
+      "updated_at": "2025-11-13T19:15:55Z",
+      "pushed_at": "2025-11-13T19:15:51Z",
       "fork": false,
       "owner": {
-        "login": "microsoft",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-        "html_url": "https://github.com/microsoft"
+        "login": "sxzz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6481596?v=4",
+        "html_url": "https://github.com/sxzz"
       }
     },
     {
-      "id": 146060123,
-      "name": "ipsw",
-      "full_name": "blacktop/ipsw",
-      "html_url": "https://github.com/blacktop/ipsw",
-      "description": "iOS/macOS Research Swiss Army Knife",
-      "stargazers_count": 2869,
-      "language": "Go",
-      "updated_at": "2025-11-13T19:06:31Z",
-      "pushed_at": "2025-11-13T19:06:26Z",
+      "id": 511141524,
+      "name": "valkey-glide",
+      "full_name": "valkey-io/valkey-glide",
+      "html_url": "https://github.com/valkey-io/valkey-glide",
+      "description": "An open source Valkey client library that supports Valkey, and Redis open source 6.2, 7.0 and 7.2. Valkey GLIDE is designed for reliability, optimized performance, and high-availability, for Valkey and Redis OSS based applications. GLIDE is a multi language client library, written in Rust with programming language bindings, such as Java and Python",
+      "stargazers_count": 632,
+      "language": "Java",
+      "updated_at": "2025-11-13T19:15:52Z",
+      "pushed_at": "2025-11-13T19:15:48Z",
       "fork": false,
       "owner": {
-        "login": "blacktop",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6118188?v=4",
-        "html_url": "https://github.com/blacktop"
+        "login": "valkey-io",
+        "avatar_url": "https://avatars.githubusercontent.com/u/164458127?v=4",
+        "html_url": "https://github.com/valkey-io"
       }
     },
     {
-      "id": 31792824,
-      "name": "flutter",
-      "full_name": "flutter/flutter",
-      "html_url": "https://github.com/flutter/flutter",
-      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "stargazers_count": 173880,
-      "language": "Dart",
-      "updated_at": "2025-11-13T19:06:31Z",
-      "pushed_at": "2025-11-13T19:06:33Z",
+      "id": 824744865,
+      "name": "bestcf",
+      "full_name": "hubbylei/bestcf",
+      "html_url": "https://github.com/hubbylei/bestcf",
+      "description": "Cloudflare优选IP",
+      "stargazers_count": 29,
+      "language": null,
+      "updated_at": "2025-11-13T19:15:52Z",
+      "pushed_at": "2025-11-13T19:15:48Z",
       "fork": false,
       "owner": {
-        "login": "flutter",
-        "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
-        "html_url": "https://github.com/flutter"
+        "login": "hubbylei",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25447885?v=4",
+        "html_url": "https://github.com/hubbylei"
       }
     },
     {
-      "id": 960140778,
-      "name": "qalign",
-      "full_name": "goncalorafaria/qalign",
-      "html_url": "https://github.com/goncalorafaria/qalign",
-      "description": "QAlign is a new test-time alignment approach that improves language model performance by using Markov chain Monte Carlo methods.",
-      "stargazers_count": 24,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:30Z",
-      "pushed_at": "2025-11-13T19:06:26Z",
-      "fork": false,
-      "owner": {
-        "login": "goncalorafaria",
-        "avatar_url": "https://avatars.githubusercontent.com/u/25470115?v=4",
-        "html_url": "https://github.com/goncalorafaria"
-      }
-    },
-    {
-      "id": 824874689,
-      "name": "cline",
-      "full_name": "cline/cline",
-      "html_url": "https://github.com/cline/cline",
-      "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-      "stargazers_count": 52354,
+      "id": 814403270,
+      "name": "ComfyUI_frontend",
+      "full_name": "Comfy-Org/ComfyUI_frontend",
+      "html_url": "https://github.com/Comfy-Org/ComfyUI_frontend",
+      "description": "Official front-end implementation of ComfyUI",
+      "stargazers_count": 1468,
       "language": "TypeScript",
-      "updated_at": "2025-11-13T19:06:29Z",
-      "pushed_at": "2025-11-13T19:06:25Z",
+      "updated_at": "2025-11-13T19:15:50Z",
+      "pushed_at": "2025-11-13T19:15:46Z",
       "fork": false,
       "owner": {
-        "login": "cline",
-        "avatar_url": "https://avatars.githubusercontent.com/u/184127137?v=4",
-        "html_url": "https://github.com/cline"
+        "login": "Comfy-Org",
+        "avatar_url": "https://avatars.githubusercontent.com/u/166579949?v=4",
+        "html_url": "https://github.com/Comfy-Org"
       }
     },
     {
-      "id": 971648001,
-      "name": "novel-downloader",
-      "full_name": "saudadez21/novel-downloader",
-      "html_url": "https://github.com/saudadez21/novel-downloader",
-      "description": "小说下载工具, 支持 TXT/EPUB 导出 (笔趣阁 | 哔哩轻小说 | ESJ Zone | ...)",
-      "stargazers_count": 70,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:27Z",
-      "pushed_at": "2025-11-13T19:06:26Z",
-      "fork": false,
-      "owner": {
-        "login": "saudadez21",
-        "avatar_url": "https://avatars.githubusercontent.com/u/75286890?v=4",
-        "html_url": "https://github.com/saudadez21"
-      }
-    },
-    {
-      "id": 207288123,
-      "name": "httpmock",
-      "full_name": "httpmock/httpmock",
-      "html_url": "https://github.com/httpmock/httpmock",
-      "description": "HTTP mocking library for Rust",
-      "stargazers_count": 619,
-      "language": "Rust",
-      "updated_at": "2025-11-13T19:06:27Z",
-      "pushed_at": "2025-11-13T19:06:29Z",
-      "fork": false,
-      "owner": {
-        "login": "httpmock",
-        "avatar_url": "https://avatars.githubusercontent.com/u/234374819?v=4",
-        "html_url": "https://github.com/httpmock"
-      }
-    },
-    {
-      "id": 81275777,
-      "name": "fido2-lib",
-      "full_name": "webauthn-open-source/fido2-lib",
-      "html_url": "https://github.com/webauthn-open-source/fido2-lib",
-      "description": "A node.js library for performing FIDO 2.0 / WebAuthn server functionality",
-      "stargazers_count": 436,
-      "language": "JavaScript",
-      "updated_at": "2025-11-13T19:06:26Z",
-      "pushed_at": "2025-11-13T19:06:22Z",
-      "fork": false,
-      "owner": {
-        "login": "webauthn-open-source",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63915842?v=4",
-        "html_url": "https://github.com/webauthn-open-source"
-      }
-    },
-    {
-      "id": 583937837,
-      "name": "speedie",
-      "full_name": "gamblevore/speedie",
-      "html_url": "https://github.com/gamblevore/speedie",
-      "description": "Compiler for my language 'Speedie'. Beta-state. Has a great future ahead for it.",
-      "stargazers_count": 24,
-      "language": "C++",
-      "updated_at": "2025-11-13T19:06:26Z",
-      "pushed_at": "2025-11-13T19:06:22Z",
-      "fork": false,
-      "owner": {
-        "login": "gamblevore",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7439356?v=4",
-        "html_url": "https://github.com/gamblevore"
-      }
-    },
-    {
-      "id": 99704051,
-      "name": "aggregate",
-      "full_name": "AnacondaRecipes/aggregate",
-      "html_url": "https://github.com/AnacondaRecipes/aggregate",
+      "id": 824146018,
+      "name": "forceteki",
+      "full_name": "SWU-Karabast/forceteki",
+      "html_url": "https://github.com/SWU-Karabast/forceteki",
       "description": null,
       "stargazers_count": 33,
-      "language": "Python",
-      "updated_at": "2025-11-13T19:06:26Z",
-      "pushed_at": "2025-11-13T19:06:22Z",
+      "language": "TypeScript",
+      "updated_at": "2025-11-13T19:15:48Z",
+      "pushed_at": "2025-11-13T19:15:46Z",
       "fork": false,
       "owner": {
-        "login": "AnacondaRecipes",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22454001?v=4",
-        "html_url": "https://github.com/AnacondaRecipes"
-      }
-    },
-    {
-      "id": 893988739,
-      "name": "MOFA",
-      "full_name": "cocopuff2u/MOFA",
-      "html_url": "https://github.com/cocopuff2u/MOFA",
-      "description": "A collection of tools, scripts, and resources for macAdmins to manage and deploy Microsoft updates on macOS, including patches for Office, Teams, and other Microsoft software",
-      "stargazers_count": 222,
-      "language": "Shell",
-      "updated_at": "2025-11-13T19:06:22Z",
-      "pushed_at": "2025-11-13T19:06:21Z",
-      "fork": false,
-      "owner": {
-        "login": "cocopuff2u",
-        "avatar_url": "https://avatars.githubusercontent.com/u/95243190?v=4",
-        "html_url": "https://github.com/cocopuff2u"
+        "login": "SWU-Karabast",
+        "avatar_url": "https://avatars.githubusercontent.com/u/167689996?v=4",
+        "html_url": "https://github.com/SWU-Karabast"
       }
     }
   ]
