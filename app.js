@@ -34,7 +34,11 @@ function updateMeta(data) {
     lastUpdatedEl.textContent = "Aún no hay datos actualizados.";
   }
 
-  totalCountEl.textContent = `Repositorios listados: ${data.count ?? projects.length}`;
+  let countText = `Repositorios listados: ${data.count ?? projects.length}`;
+  if (data.new_in_this_run !== undefined) {
+    countText += ` (${data.new_in_this_run} nuevos en última ejecución)`;
+  }
+  totalCountEl.textContent = countText;
 }
 
 function renderPage() {
@@ -56,12 +60,19 @@ function renderPage() {
         ? new Date(repo.updated_at).toLocaleString()
         : "Desconocido";
 
+      const ownerInfo = repo.owner
+        ? `<a href="${repo.owner.html_url}" target="_blank" rel="noopener noreferrer" class="owner-link">${repo.owner.login}</a> /`
+        : '';
+
       li.innerHTML = `
-        <h2><a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.full_name}</a></h2>
+        <div class="repo-header">
+          ${repo.owner && repo.owner.avatar_url ? `<img src="${repo.owner.avatar_url}" alt="${repo.owner.login}" class="owner-avatar">` : ''}
+          <h2>${ownerInfo} <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}</a></h2>
+        </div>
         <p>${repo.description ? repo.description : "<em>Sin descripción</em>"}</p>
         <div class="meta-row">
           <span>⭐ ${repo.stargazers_count}</span>
-          <span>${repo.language ?? "Lenguaje desconocido"}</span>
+          <span>${repo.language ?? "—"}</span>
           <span>Actualizado: ${updated}</span>
         </div>
       `;

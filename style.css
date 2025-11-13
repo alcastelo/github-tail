@@ -85,9 +85,38 @@ body {
   border-color:#3b82f6;
 }
 
+.repo-header {
+  display:flex;
+  align-items:center;
+  gap:0.75rem;
+  margin-bottom:0.5rem;
+}
+
+.owner-avatar {
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  border:2px solid #1f2937;
+}
+
+.owner-link {
+  color:#94a3b8;
+  text-decoration:none;
+  font-weight:normal;
+}
+
+.owner-link:hover {
+  color:#3b82f6;
+  text-decoration:underline;
+}
+
 .project-item h2 {
-  margin:0 0 0.5rem 0;
+  margin:0;
   font-size:1.25rem;
+  display:flex;
+  align-items:center;
+  gap:0.5rem;
+  flex-wrap:wrap;
 }
 
 .project-item h2 a {

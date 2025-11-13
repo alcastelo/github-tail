@@ -11,12 +11,11 @@ jobs:
       contents: write
 
     env:
-      GITHUB_USERNAME: ${{ github.repository_owner }}
       MAX_RESULTS: "50"
+      MAX_TOTAL_STORED: "200"
       OUT_PATH: "data/projects.json"
-      # Si quieres usar un token personal, crea el secreto GH_API_TOKEN en el repo
       GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      MIN_STARS: "0"
+      MIN_STARS: "10"
 
     steps:
       - name: Checkout
