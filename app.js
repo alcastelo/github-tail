@@ -16,7 +16,7 @@ async function loadProjects(isAutoRefresh = false) {
     const hasChanges = lastUpdated && newLastUpdated !== lastUpdated;
 
     if (hasChanges && isAutoRefresh) {
-      showUpdateNotification(data.new_in_this_run || 0);
+      showUpdateNotification();
     }
 
     lastUpdated = newLastUpdated;
@@ -42,22 +42,22 @@ async function loadProjects(isAutoRefresh = false) {
   }
 }
 
-function showUpdateNotification(newCount) {
+function showUpdateNotification() {
   const notification = document.createElement('div');
   notification.className = 'update-notification';
   notification.innerHTML = `
-    ✨ <strong>${newCount} nuevo${newCount !== 1 ? 's' : ''} repositorio${newCount !== 1 ? 's' : ''}</strong> encontrado${newCount !== 1 ? 's' : ''}!
+    ✨ <strong>Nuevos repositorios disponibles!</strong> La lista ha sido actualizada.
     <button onclick="this.parentElement.remove()">✕</button>
   `;
   document.body.appendChild(notification);
 
-  // Auto-remover después de 10 segundos
+  // Auto-remover después de 8 segundos
   setTimeout(() => {
     if (notification.parentElement) {
       notification.classList.add('fade-out');
       setTimeout(() => notification.remove(), 300);
     }
-  }, 10000);
+  }, 8000);
 }
 
 function updateRefreshIndicator(status) {
@@ -116,10 +116,7 @@ function updateMeta(data) {
     lastUpdatedEl.textContent = "Aún no hay datos actualizados.";
   }
 
-  let countText = `Repositorios listados: ${data.count ?? projects.length}`;
-  if (data.new_in_this_run !== undefined) {
-    countText += ` (${data.new_in_this_run} nuevos en última ejecución)`;
-  }
+  const countText = `Repositorios listados: ${data.count ?? projects.length}`;
   totalCountEl.textContent = countText;
 }
 

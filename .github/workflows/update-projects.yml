@@ -22,7 +22,6 @@ jobs:
 
     env:
       MAX_RESULTS: "50"
-      MAX_TOTAL_STORED: "200"
       OUT_PATH: "data/projects.json"
       GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       MIN_STARS: "20"

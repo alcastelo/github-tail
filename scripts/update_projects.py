@@ -39,22 +39,19 @@ def format_datetime_for_search(dt_str):
 def main():
     max_results = int(os.environ.get("MAX_RESULTS", "50"))
     min_stars = int(os.environ.get("MIN_STARS", "20"))
-    max_total_stored = int(os.environ.get("MAX_TOTAL_STORED", "200"))  # Límite de repos en histórico
     out_path = os.environ.get("OUT_PATH", "data/projects.json")
 
-    # Cargar datos existentes
+    # Cargar datos existentes solo para obtener last_updated
     existing_data = load_existing_data(out_path)
     last_updated = None
-    existing_projects = []
-    seen_ids = set()
+    previous_count = 0
 
     if existing_data:
         last_updated = existing_data.get("last_updated")
-        existing_projects = existing_data.get("projects", [])
-        seen_ids = {p.get("id") for p in existing_projects if p.get("id")}
-        print(f"📂 Datos existentes: {len(existing_projects)} repos", file=sys.stderr)
+        previous_count = existing_data.get("count", 0)
         if last_updated:
             print(f"📅 Última actualización: {last_updated}", file=sys.stderr)
+            print(f"📂 Repos en consulta anterior: {previous_count}", file=sys.stderr)
 
     # URL de la API de búsqueda de GitHub
     url = "https://api.github.com/search/repositories"
@@ -104,47 +101,33 @@ def main():
     print(f"📊 Repos obtenidos en esta consulta: {total_fetched}", file=sys.stderr)
     print(f"📈 Total disponible en GitHub: {data.get('total_count', '?')}", file=sys.stderr)
 
-    # Procesar nuevos repos
-    new_repos = []
-    new_count = 0
+    # Procesar repos de la consulta actual (sin acumular histórico)
+    current_projects = []
 
     for repo in repos:
-        repo_id = repo.get("id")
-
-        # Solo agregar si no lo hemos visto antes
-        if repo_id not in seen_ids:
-            new_repos.append({
-                "id": repo_id,
-                "name": repo.get("name"),
-                "full_name": repo.get("full_name"),
-                "html_url": repo.get("html_url"),
-                "description": repo.get("description"),
-                "stargazers_count": repo.get("stargazers_count"),
-                "language": repo.get("language"),
-                "updated_at": repo.get("updated_at"),
-                "pushed_at": repo.get("pushed_at"),
-                "fork": repo.get("fork"),
-                "owner": {
-                    "login": repo.get("owner", {}).get("login"),
-                    "avatar_url": repo.get("owner", {}).get("avatar_url"),
-                    "html_url": repo.get("owner", {}).get("html_url"),
-                },
-            })
-            new_count += 1
-            seen_ids.add(repo_id)
-
-    print(f"✨ Repos nuevos (no duplicados): {new_count}", file=sys.stderr)
-
-    # Combinar: nuevos primero + existentes
-    all_projects = new_repos + existing_projects
+        current_projects.append({
+            "id": repo.get("id"),
+            "name": repo.get("name"),
+            "full_name": repo.get("full_name"),
+            "html_url": repo.get("html_url"),
+            "description": repo.get("description"),
+            "stargazers_count": repo.get("stargazers_count"),
+            "language": repo.get("language"),
+            "updated_at": repo.get("updated_at"),
+            "pushed_at": repo.get("pushed_at"),
+            "fork": repo.get("fork"),
+            "owner": {
+                "login": repo.get("owner", {}).get("login"),
+                "avatar_url": repo.get("owner", {}).get("avatar_url"),
+                "html_url": repo.get("owner", {}).get("html_url"),
+            },
+        })
 
     # Ordenar por fecha de actualización (más reciente primero)
-    all_projects.sort(key=lambda x: x.get("updated_at") or "", reverse=True)
+    current_projects.sort(key=lambda x: x.get("updated_at") or "", reverse=True)
 
-    # Limitar a max_total_stored para no crecer infinitamente
-    if len(all_projects) > max_total_stored:
-        print(f"✂️  Limitando a los {max_total_stored} repos más recientes", file=sys.stderr)
-        all_projects = all_projects[:max_total_stored]
+    # Limitar a max_results
+    current_projects = current_projects[:max_results]
 
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
 
@@ -155,16 +138,15 @@ def main():
             "min_stars": min_stars,
         },
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "count": len(all_projects),
-        "new_in_this_run": new_count,
+        "count": len(current_projects),
         "total_available": data.get("total_count", 0),
-        "projects": all_projects,
+        "projects": current_projects,
     }
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(f"💾 Guardados {len(all_projects)} repos totales ({new_count} nuevos)", file=sys.stderr)
+    print(f"💾 Guardados {len(current_projects)} repos de esta consulta", file=sys.stderr)
 
 
 if __name__ == "__main__":
