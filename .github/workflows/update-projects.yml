@@ -3,8 +3,8 @@ name: Actualizar proyectos GitHub
 on:
   schedule:
     # GitHub Actions no garantiza ejecución exacta cada 5 minutos
-    # En la práctica puede haber retrasos de 3-10 minutos o más según carga
-    # Intervalo cada 10 minutos para mejor confiabilidad
+    # En la práctica puede haber retrasos de 1-5 minutos dependiendo de la carga del sistema
+    # Intervalo cada 5 minutos para mantener la lista actualizada
     - cron: "*/5 * * * *"
   workflow_dispatch:        # para lanzarlo manualmente cuando quieras
   push:
