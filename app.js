@@ -41,7 +41,8 @@ const translations = {
 
 async function loadProjects(isAutoRefresh = false) {
   try {
-    const res = await fetch("data/projects.json?cb=" + Date.now());
+    // Cargar desde GitHub raw para obtener siempre la última versión
+    const res = await fetch("https://raw.githubusercontent.com/alcastelo/github-tail/refs/heads/master/data/projects.json?cb=" + Date.now());
     const data = await res.json();
 
     // Detectar si hay cambios
