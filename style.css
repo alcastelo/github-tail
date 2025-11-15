@@ -93,7 +93,7 @@ body {
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap:0.5rem;
+  gap:0.75rem;
   padding:1rem;
   background:rgba(15, 23, 42, 0.5);
   border:1px solid #1f2937;
@@ -120,9 +120,23 @@ body {
   50% { opacity: 1; }
 }
 
-#kofi-widget {
-  display:flex;
-  justify-content:center;
+.kofi-button {
+  display:inline-flex;
+  align-items:center;
+  transition:all 0.2s ease;
+  border-radius:6px;
+  overflow:hidden;
+}
+
+.kofi-button:hover {
+  transform:scale(1.05);
+  filter:brightness(1.1);
+}
+
+.kofi-button img {
+  display:block;
+  height:36px;
+  width:auto;
 }
 
 @media (min-width: 768px) {
@@ -133,6 +147,7 @@ body {
   .kofi-container {
     flex-direction:row;
     gap:1rem;
+    align-items:center;
   }
 }
 
