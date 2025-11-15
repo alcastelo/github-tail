@@ -5,6 +5,39 @@ const pageSize = 25;
 let lastUpdated = null;
 let pollInterval = null;
 const POLL_INTERVAL_MS = 300000; // Verificar cada 5 minutos (300 segundos)
+let currentLang = 'en'; // Default language
+
+// Language translations
+const translations = {
+  en: {
+    lastUpdated: "Last updated: ",
+    noData: "No updated data yet.",
+    reposListed: "Repositories listed: ",
+    noResults: "No results.",
+    noDescription: "No description",
+    updated: "Updated: ",
+    pageOf: "Page {current} of {total}",
+    checking: "🔄 Checking for updates...",
+    lastCheck: "✓ Last check: {time}",
+    checkError: "⚠️ Check error ({time})",
+    newRepos: "✨ <strong>New repositories available!</strong> The list has been updated.",
+    unknown: "Unknown"
+  },
+  es: {
+    lastUpdated: "Última actualización: ",
+    noData: "Aún no hay datos actualizados.",
+    reposListed: "Repositorios listados: ",
+    noResults: "No hay resultados.",
+    noDescription: "Sin descripción",
+    updated: "Actualizado: ",
+    pageOf: "Página {current} de {total}",
+    checking: "🔄 Verificando actualizaciones...",
+    lastCheck: "✓ Última verificación: {time}",
+    checkError: "⚠️ Error al verificar ({time})",
+    newRepos: "✨ <strong>Nuevos repositorios disponibles!</strong> La lista ha sido actualizada.",
+    unknown: "Desconocido"
+  }
+};
 
 async function loadProjects(isAutoRefresh = false) {
   try {
@@ -19,8 +52,13 @@ async function loadProjects(isAutoRefresh = false) {
     projects = data.projects || [];
     filteredProjects = [...projects];
 
-    if (data.source && data.source.min_stars) {
-      document.getElementById("min-stars-input").value = data.source.min_stars;
+    // Solo establecer el valor por defecto en la carga inicial, no en auto-refresh
+    if (!isAutoRefresh && data.source && data.source.min_stars) {
+      const minStarsInput = document.getElementById("min-stars-input");
+      // Solo establecer si el usuario no ha cambiado el valor
+      if (minStarsInput.value === "20" || minStarsInput.value === "") {
+        minStarsInput.value = data.source.min_stars;
+      }
     }
 
     updateMeta(data);
@@ -52,7 +90,7 @@ function showUpdateNotification() {
   const notification = document.createElement('div');
   notification.className = 'update-notification';
   notification.innerHTML = `
-    ✨ <strong>Nuevos repositorios disponibles!</strong> La lista ha sido actualizada.
+    ${translations[currentLang].newRepos}
     <button onclick="this.parentElement.remove()">✕</button>
   `;
   document.body.appendChild(notification);
@@ -74,15 +112,15 @@ function updateRefreshIndicator(status) {
 
   switch(status) {
     case 'checking':
-      indicator.textContent = `🔄 Verificando actualizaciones...`;
+      indicator.textContent = translations[currentLang].checking;
       indicator.className = 'refresh-indicator checking';
       break;
     case 'updated':
-      indicator.textContent = `✓ Última verificación: ${now}`;
+      indicator.textContent = translations[currentLang].lastCheck.replace('{time}', now);
       indicator.className = 'refresh-indicator updated';
       break;
     case 'error':
-      indicator.textContent = `⚠️ Error al verificar (${now})`;
+      indicator.textContent = translations[currentLang].checkError.replace('{time}', now);
       indicator.className = 'refresh-indicator error';
       break;
   }
@@ -117,13 +155,12 @@ function updateMeta(data) {
 
   if (data.last_updated) {
     const d = new Date(data.last_updated);
-    lastUpdatedEl.textContent = "Última actualización: " + d.toLocaleString();
+    lastUpdatedEl.textContent = translations[currentLang].lastUpdated + d.toLocaleString();
   } else {
-    lastUpdatedEl.textContent = "Aún no hay datos actualizados.";
+    lastUpdatedEl.textContent = translations[currentLang].noData;
   }
 
-  const countText = `Repositorios listados: ${data.count ?? projects.length}`;
-  totalCountEl.textContent = countText;
+  totalCountEl.textContent = translations[currentLang].reposListed + (data.count ?? projects.length);
 }
 
 function renderPage() {
@@ -135,7 +172,7 @@ function renderPage() {
   const pageItems = filteredProjects.slice(start, end);
 
   if (pageItems.length === 0) {
-    listEl.innerHTML = "<li>No hay resultados.</li>";
+    listEl.innerHTML = `<li>${translations[currentLang].noResults}</li>`;
   } else {
     for (const repo of pageItems) {
       const li = document.createElement("li");
@@ -143,7 +180,7 @@ function renderPage() {
 
       const updated = repo.updated_at
         ? new Date(repo.updated_at).toLocaleString()
-        : "Desconocido";
+        : translations[currentLang].unknown;
 
       const ownerInfo = repo.owner
         ? `<a href="${repo.owner.html_url}" target="_blank" rel="noopener noreferrer" class="owner-link">${repo.owner.login}</a> /`
@@ -154,11 +191,11 @@ function renderPage() {
           ${repo.owner && repo.owner.avatar_url ? `<img src="${repo.owner.avatar_url}" alt="${repo.owner.login}" class="owner-avatar">` : ''}
           <h2>${ownerInfo} <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${repo.name}</a></h2>
         </div>
-        <p>${repo.description ? repo.description : "<em>Sin descripción</em>"}</p>
+        <p>${repo.description ? repo.description : `<em>${translations[currentLang].noDescription}</em>`}</p>
         <div class="meta-row">
           <span>⭐ ${repo.stargazers_count}</span>
           <span>${repo.language ?? "—"}</span>
-          <span>Actualizado: ${updated}</span>
+          <span>${translations[currentLang].updated}${updated}</span>
         </div>
       `;
       listEl.appendChild(li);
@@ -167,7 +204,7 @@ function renderPage() {
 
   const totalPages = Math.max(1, Math.ceil(filteredProjects.length / pageSize));
   document.getElementById("page-info").textContent =
-    `Página ${currentPage} de ${totalPages}`;
+    translations[currentLang].pageOf.replace('{current}', currentPage).replace('{total}', totalPages);
 
   document.getElementById("first-page").disabled = currentPage <= 1;
   document.getElementById("prev-page").disabled = currentPage <= 1;
@@ -255,7 +292,68 @@ function setupMinStarsFilter() {
   input.addEventListener("input", applyFilters);
 }
 
+// Language switching functionality
+function switchLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('preferred-language', lang);
+
+  // Update HTML lang attribute
+  document.documentElement.lang = lang;
+
+  // Update all elements with data-en and data-es attributes
+  document.querySelectorAll('[data-en][data-es]').forEach(el => {
+    if (el.tagName === 'INPUT' && el.type === 'text') {
+      // Handle input placeholders
+      el.placeholder = el.getAttribute(`data-placeholder-${lang}`);
+    } else if (el.tagName === 'TITLE') {
+      // Handle document title
+      document.title = el.getAttribute(`data-${lang}`);
+    } else if (el.hasAttribute(`data-title-${lang}`)) {
+      // Handle title attributes
+      el.title = el.getAttribute(`data-title-${lang}`);
+      el.textContent = el.getAttribute(`data-${lang}`);
+    } else {
+      // Handle regular text content
+      el.textContent = el.getAttribute(`data-${lang}`);
+    }
+  });
+
+  // Update language buttons
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+
+  // Reload current view with new language
+  if (projects.length > 0) {
+    updateMeta({ last_updated: lastUpdated, count: projects.length });
+    renderPage();
+  }
+}
+
+function initLanguage() {
+  // Check for URL parameter first, then saved preference, then browser language
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlLang = urlParams.get('lang');
+  const savedLang = localStorage.getItem('preferred-language');
+  const browserLang = navigator.language.split('-')[0];
+
+  if (urlLang && (urlLang === 'en' || urlLang === 'es')) {
+    currentLang = urlLang;
+  } else if (savedLang) {
+    currentLang = savedLang;
+  } else if (browserLang === 'es') {
+    currentLang = 'es';
+  }
+
+  switchLanguage(currentLang);
+
+  // Setup language button listeners
+  document.getElementById('lang-en').addEventListener('click', () => switchLanguage('en'));
+  document.getElementById('lang-es').addEventListener('click', () => switchLanguage('es'));
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initLanguage();
   setupPagination();
   setupSearch();
   setupMinStarsFilter();

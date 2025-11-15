@@ -1,39 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Últimos repos actualizados en GitHub</title>
+  <title data-en="Latest Updated Repos on GitHub" data-es="Últimos repos actualizados en GitHub">Latest Updated Repos on GitHub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
-    <h1>🔥 GitHub Tail - Repos Actualizados en Tiempo Real</h1>
-    <p>Hasta 500 de los repositorios públicos más recientemente actualizados en GitHub (con mínimo 20 estrellas)</p>
-    <p style="font-size:0.9rem;color:#94a3b8;">Actualización automática cada ~5 minutos mediante GitHub Actions</p>
-    <p style="font-size:0.85rem;color:#64748b;">💡 La página se actualiza automáticamente sin perder tu posición actual</p>
+    <div class="language-switcher">
+      <button id="lang-en" class="lang-btn active" data-lang="en">🇬🇧 EN</button>
+      <button id="lang-es" class="lang-btn" data-lang="es">🇪🇸 ES</button>
+    </div>
+    <h1 data-en="🔥 GitHub Tail - Real-Time Updated Repos" data-es="🔥 GitHub Tail - Repos Actualizados en Tiempo Real">🔥 GitHub Tail - Real-Time Updated Repos</h1>
+    <p data-en="Up to 500 of the most recently updated public repositories on GitHub (with minimum 20 stars)" data-es="Hasta 500 de los repositorios públicos más recientemente actualizados en GitHub (con mínimo 20 estrellas)">Up to 500 of the most recently updated public repositories on GitHub (with minimum 20 stars)</p>
+    <p style="font-size:0.9rem;color:#94a3b8;" data-en="Automatic update every ~5 minutes via GitHub Actions" data-es="Actualización automática cada ~5 minutos mediante GitHub Actions">Automatic update every ~5 minutes via GitHub Actions</p>
+    <p style="font-size:0.85rem;color:#64748b;" data-en="💡 The page auto-refreshes without losing your current position" data-es="💡 La página se actualiza automáticamente sin perder tu posición actual">💡 The page auto-refreshes without losing your current position</p>
   </header>
 
   <main class="container">
     <section class="controls">
       <label>
-        Buscar:
-        <input type="text" id="search-input" placeholder="Filtrar por nombre o descripción...">
+        <span data-en="Search:" data-es="Buscar:">Search:</span>
+        <input type="text" id="search-input" data-placeholder-en="Filter by name or description..." data-placeholder-es="Filtrar por nombre o descripción..." placeholder="Filter by name or description...">
       </label>
 
       <label style="margin-left:1rem;">
-        Estrellas mínimas:
+        <span data-en="Minimum stars:" data-es="Estrellas mínimas:">Minimum stars:</span>
         <input type="number" id="min-stars-input" value="20" min="0" style="width:80px;">
       </label>
     </section>
 
     <section id="meta" class="meta">
-      <span id="last-updated">Cargando fecha de actualización...</span>
+      <span id="last-updated" data-en="Loading update date..." data-es="Cargando fecha de actualización...">Loading update date...</span>
       <span id="total-count"></span>
     </section>
 
     <section class="auto-refresh-info">
-      <span id="refresh-indicator" class="refresh-indicator">Iniciando auto-refresh...</span>
+      <span id="refresh-indicator" class="refresh-indicator" data-en="Starting auto-refresh..." data-es="Iniciando auto-refresh...">Starting auto-refresh...</span>
     </section>
 
     <section id="projects-container">
@@ -41,33 +45,19 @@
     </section>
 
     <section class="pagination">
-      <button id="first-page" title="Ir a la primera página">⏮ Primera</button>
-      <button id="prev-page" title="Página anterior">← Anterior</button>
+      <button id="first-page" data-title-en="Go to first page" data-title-es="Ir a la primera página" data-en="⏮ First" data-es="⏮ Primera">⏮ First</button>
+      <button id="prev-page" data-title-en="Previous page" data-title-es="Página anterior" data-en="← Previous" data-es="← Anterior">← Previous</button>
       <span id="page-info"></span>
-      <button id="next-page" title="Página siguiente">Siguiente →</button>
-      <button id="last-page" title="Ir a la última página">Última ⏭</button>
+      <button id="next-page" data-title-en="Next page" data-title-es="Página siguiente" data-en="Next →" data-es="Siguiente →">Next →</button>
+      <button id="last-page" data-title-en="Go to last page" data-title-es="Ir a la última página" data-en="Last ⏭" data-es="Última ⏭">Last ⏭</button>
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-info">
-        Generado automáticamente desde GitHub Actions ·
-        <a href="https://github.com/alcastelo/github-tail" target="_blank" rel="noopener noreferrer">
-          Ver repositorio
-        </a>
-      </div>
-
-      <div class="visit-counter">
-        <span class="counter-label">Visitas:</span>
-
-        <!-- Opción 1: GoatCounter (Respeta privacidad, open source, gratuito) -->
-        <!-- Requiere registro en https://www.goatcounter.com/ -->
-        <img src="https://alcastelo-github-tail.goatcounter.com/counter/default.svg" alt="Contador de visitas" class="counter-badge" style="display:none;">
-
-        <!-- Opción 2: hits.seeyoufarm.com (ACTIVO - Sin registro, funciona inmediatamente) -->
-        <!-- Personaliza en: https://hits.seeyoufarm.com/ -->
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Falcastelo.github.io%2Fgithub-tail&count_bg=%233B82F6&title_bg=%23020617&icon=github.svg&icon_color=%23E7E7E7&title=visitas&edge_flat=false" alt="Contador de visitas" class="counter-badge">
+        <span data-en="Automatically generated from GitHub Actions ·" data-es="Generado automáticamente desde GitHub Actions ·">Automatically generated from GitHub Actions ·</span>
+        <a href="https://github.com/alcastelo/github-tail" target="_blank" rel="noopener noreferrer" data-en="View repository" data-es="Ver repositorio">View repository</a>
       </div>
     </div>
   </footer>

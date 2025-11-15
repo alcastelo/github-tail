@@ -8,7 +8,7 @@
 
 > 📡 A live dashboard tracking up to 500 of the most recently updated public repositories on GitHub with 20+ stars, automatically refreshed every ~5 minutes via GitHub Actions.
 
-[🌐 **View Live Dashboard**](https://alcastelo.github.io/github-tail/) | [🇪🇸 Ver en Español](#-github-tail---repositorios-actualizados-en-tiempo-real)
+[🌐 **View Live Dashboard (English)**](https://alcastelo.github.io/github-tail/?lang=en) | [🇪🇸 **Ver en Español**](#-github-tail---repositorios-actualizados-en-tiempo-real)
 
 ---
 
@@ -18,9 +18,9 @@
 - 📊 **Up to 500 repositories** tracked in real-time with 20+ stars minimum (shows fewer if less are available)
 - 🎯 **Smart client-side updates** - Page auto-refreshes without losing your position
 - 🔍 **Advanced filtering** - Search by name/description and filter by star count
+- 🌐 **Bilingual interface** - Switch between English and Spanish with one click
 - 📱 **Responsive design** - Works perfectly on desktop and mobile devices
 - 🚀 **Zero backend** - Fully static, hosted on GitHub Pages
-- 📈 **Visit counter** - Track dashboard popularity
 - 🎨 **Clean UI** - Modern, intuitive interface with dark theme
 
 ## 🚀 How It Works
@@ -142,15 +142,6 @@ env:
 
 ## 🎨 Customization
 
-### Add Visit Counter
-
-The project includes **hits.seeyoufarm.com** counter. To customize:
-
-1. Visit [https://hits.seeyoufarm.com/](https://hits.seeyoufarm.com/)
-2. Enter your GitHub Pages URL
-3. Customize colors and style
-4. Replace the badge URL in `index.html` line 70
-
 ### Styling
 
 Edit `style.css` to customize colors, fonts, and layout. The current theme uses:
@@ -211,7 +202,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with ❤️ using GitHub Actions and GitHub Pages
 - Powered by [GitHub Search API](https://docs.github.com/en/rest/search)
-- Visit counter by [hits.seeyoufarm.com](https://hits.seeyoufarm.com/)
+- This is an experiment using vibe coding
 
 ---
 
@@ -225,7 +216,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 > 📡 Un dashboard en vivo que rastrea hasta 500 de los repositorios públicos más recientemente actualizados en GitHub con 20+ estrellas, actualizado automáticamente cada ~5 minutos mediante GitHub Actions.
 
-[🌐 **Ver Dashboard en Vivo**](https://alcastelo.github.io/github-tail/)
+[🌐 **Ver Dashboard en Vivo (Español)**](https://alcastelo.github.io/github-tail/?lang=es) | [🇬🇧 **View in English**](#-github-tail---real-time-updated-repositories)
 
 ---
 
@@ -235,9 +226,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📊 **Hasta 500 repositorios** rastreados en tiempo real con mínimo 20 estrellas (muestra menos si hay menos disponibles)
 - 🎯 **Actualizaciones inteligentes del cliente** - La página se actualiza automáticamente sin perder tu posición
 - 🔍 **Filtrado avanzado** - Buscar por nombre/descripción y filtrar por cantidad de estrellas
+- 🌐 **Interfaz bilingüe** - Cambia entre inglés y español con un clic
 - 📱 **Diseño responsivo** - Funciona perfectamente en escritorio y dispositivos móviles
 - 🚀 **Sin backend** - Completamente estático, alojado en GitHub Pages
-- 📈 **Contador de visitas** - Rastrea la popularidad del dashboard
 - 🎨 **Interfaz limpia** - Interfaz moderna e intuitiva con tema oscuro
 
 ## 🚀 Cómo Funciona
@@ -359,15 +350,6 @@ env:
 
 ## 🎨 Personalización
 
-### Agregar Contador de Visitas
-
-El proyecto incluye contador de **hits.seeyoufarm.com**. Para personalizar:
-
-1. Visita [https://hits.seeyoufarm.com/](https://hits.seeyoufarm.com/)
-2. Ingresa la URL de tu GitHub Pages
-3. Personaliza colores y estilo
-4. Reemplaza la URL del badge en `index.html` línea 70
-
 ### Estilos
 
 Edita `style.css` para personalizar colores, fuentes y diseño. El tema actual usa:
@@ -428,7 +410,7 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 - Construido con ❤️ usando GitHub Actions y GitHub Pages
 - Impulsado por [GitHub Search API](https://docs.github.com/en/rest/search)
-- Contador de visitas por [hits.seeyoufarm.com](https://hits.seeyoufarm.com/)
+- Este es un experimento usando vibe coding
 
 ---
 
